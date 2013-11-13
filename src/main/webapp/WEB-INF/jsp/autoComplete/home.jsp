@@ -4,18 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>Insert title here</title>
+<title>Auto Complete</title>
 </head>
 <body>
 
-	<link rel="stylesheet" href="resources/css/jquery-ui.css" />
-	<link rel="stylesheet" href="resources/theme/theme.css" />
-	<link rel="stylesheet" href="resources/primeui/css/primeui-1.0.css" />
-	<script type="text/javascript" src="resources/js/jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="resources/js/jquery-ui.js"></script>
-	<script type="text/javascript"
-		src="resources/primeui/js/primeui-1.0.js"></script>
-
+	<%@include file="/WEB-INF/jspf/dependencies.jspf" %>
+	
 	<script type="text/javascript">
     $(function() {
         $('#remote').puiautocomplete({
@@ -25,7 +19,7 @@
             completeSource:function(request, response) {
                 $.ajax({
                     type: "GET",
-                    url: './autoCompleteForm',
+                    url: 'autoCompleteForm',
                     data: {query: request.query},
                     dataType: "json",
                     context: this,

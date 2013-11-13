@@ -1,4 +1,4 @@
-package br.com.caelum.vraptor.plugin.primeui;
+package br.com.caelum.vraptor.plugin.primeui.controller;
 
 import java.util.ArrayList;
 import java.util.List;
