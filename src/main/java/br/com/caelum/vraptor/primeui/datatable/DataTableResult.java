@@ -1,4 +1,4 @@
-package br.com.caelum.vraptor.plugin.primeui.datatable;
+package br.com.caelum.vraptor.primeui.datatable;
 
 import java.util.List;
 
