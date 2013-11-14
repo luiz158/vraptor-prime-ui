@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.caelum.vraptor</groupId>
-	<artifactId>vraptor-prime-ui</artifactId>
+	<artifactId>vraptor-primeui-test</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
-	<name>vraptor-prime-ui</name>
+	<name>vraptor-primeui-test</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -19,6 +19,12 @@
 			<groupId>br.com.caelum</groupId>
 			<artifactId>vraptor</artifactId>
 			<version>4.0.0-beta-3-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>br.com.caelum.vraptor</groupId>
+			<artifactId>vraptor-prime-ui</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -60,7 +66,8 @@
 	</dependencies>
 
 	<build>
-		<finalName>vraptor-prime-ui</finalName>
+		<finalName>vraptor-primeui-test</finalName>
+		<outputDirectory>${basedir}/src/main/webapp/WEB-INF/classes</outputDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
@@ -68,6 +75,7 @@
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
+					<wtpversion>2.0</wtpversion>
 				</configuration>
 			</plugin>
 
@@ -79,6 +87,12 @@
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
 			</plugin>
 
 		</plugins>
