@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+	<description>Vraptor Prime-UI plugin</description>
+	<display-name>Vraptor Prime-UI</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>v</short-name>
+	<uri>http://vraptor.caelum.com.br/plugins/prime-ui</uri>
+	
+	<tag-file>
+		<name>autocomplete</name>
+		<path>/META-INF/tags/autocomplete.tag</path>
+	</tag-file>
+	<tag-file>
+		<name>css</name>
+		<path>/META-INF/tags/css.tag</path>
+	</tag-file>
+	<tag-file>
+		<name>scripts</name>
+		<path>/META-INF/tags/scripts.tag</path>
+	</tag-file>
+	
+</taglib>

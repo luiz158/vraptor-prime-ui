@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+	<description>Vraptor Prime-UI utils</description>
+	<display-name>prime-ui Utils</display-name>
+	<tlib-version>0.1</tlib-version>
+	<short-name>u</short-name>
+	<uri>http://vraptor-primeui-utils</uri>
+	
+	<tag>
+		<description>Default value</description>
+		<name>default</name>
+		<body-content>empty</body-content>
+		<tag-class>br.com.caelum.vraptor.primeui.utils.DefaultTag</tag-class>
+        <attribute>
+            <name>varName</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>defaultValue</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+    	<description>Tag to group all js together</description>
+    	<name>jsStore</name>
+    	<body-content>scriptless</body-content>
+    	<tag-class>br.com.caelum.vraptor.primeui.utils.JSStoreTag</tag-class>
+    </tag>
+    
+<!--     <function> -->
+<!--         <name>jsContent</name> -->
+<!-- 		<function-class>br.com.caelum.vraptor.primeui.utils.JSStoreTag</function-class> -->
+<!-- 		<function-signature>String getJavascript()</function-signature> -->
+<!-- 	</function> -->
+    
+</taglib>
