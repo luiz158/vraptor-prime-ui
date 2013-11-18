@@ -15,7 +15,7 @@
 <h3 class="title title-short">Remote</h3>
 <v:autocomplete name="bla" id="blabla" url="autoCompleteForm"/>
 
-<v:autocomplete name="asdasd" id="asdasd" url="autoCompleteForm"/>
+<v:autocomplete name="asdasd" minQueryLength="1" url="autoCompleteForm"/>
 
 <v:scripts/>
 </body>

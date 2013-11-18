@@ -6,9 +6,11 @@
 <%@attribute name="name" required="true"  %>
 <%@attribute name="url" required="true" %>
 <%@attribute name="type" %>
+<%@attribute name="minQueryLength" %>
 
 <u:default varName="id" defaultValue="${name}"/>
 <u:default varName="type" defaultValue="text"/>
+<u:default varName="minQueryLength" defaultValue="3"/>
 
 <input id="${id}" name="${name}" type="${type}"
 	<c:forEach var="a" items="${attrs}">${a.key} = "${a.value}"</c:forEach> 
@@ -19,6 +21,7 @@
 	$('#${id}').puiautocomplete({
 	    effect: 'fade',
 	    effectSpeed: 'fast',
+	    minQueryLength: ${minQueryLength},
 	    content: function(data){return data.label;},
 	    completeSource:function(request, response) {
 	        $.ajax({
@@ -33,7 +36,6 @@
 	                	var item = source[i];                        	
 	                   	data.push({label:item});
 	                }
-	                
 	                this._handleData(data);
 	                response.call(this, data);
 	            }

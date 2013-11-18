@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
 	version="2.1">
 	<description>Vraptor Prime-UI utils</description>
-	<display-name>prime-ui Utils</display-name>
+	<display-name>Prime-ui Utils</display-name>
 	<tlib-version>0.1</tlib-version>
 	<short-name>u</short-name>
 	<uri>http://vraptor-primeui-utils</uri>
 	
 	<tag>
-		<description>Default value</description>
+		<description>Default value of a variable</description>
 		<name>default</name>
 		<body-content>empty</body-content>
 		<tag-class>br.com.caelum.vraptor.primeui.utils.DefaultTag</tag-class>
