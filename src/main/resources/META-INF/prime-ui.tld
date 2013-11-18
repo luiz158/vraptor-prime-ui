@@ -9,8 +9,9 @@
 	<uri>http://vraptor.caelum.com.br/plugins/prime-ui</uri>
 	
 	<tag-file>
-		<name>autocomplete</name>
-		<path>/META-INF/tags/autocomplete.tag</path>
+		<name>autoComplete</name>
+		<path>/META-INF/tags/autoComplete.tag</path>
+	</tag-file>
 	</tag-file>
 	<tag-file>
 		<name>css</name>

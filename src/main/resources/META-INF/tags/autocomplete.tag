@@ -6,6 +6,7 @@
 <%@attribute name="name" required="true"  %>
 <%@attribute name="url" required="true" %>
 <%@attribute name="type" %>
+
 <%@attribute name="minQueryLength" %>
 
 <u:default varName="id" defaultValue="${name}"/>
