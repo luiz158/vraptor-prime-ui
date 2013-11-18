@@ -8,4 +8,5 @@
 .classpath
 .project
 .settings
-/examples/vraptor-primeui-test/target/*
+examples/vraptor-primeui-test/target/*
+
