@@ -27,7 +27,7 @@ public class DataTableController {
 	@Path("/dataTable")
 	public void home(){}
 
-	@Path("/lazyData/{request.first}/{request.rows}")
+	@Path("/lazyData")
 	public void lazyData(DataTableRequest request){
 		
 		System.out.println(request.getFirst());

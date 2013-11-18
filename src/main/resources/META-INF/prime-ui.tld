@@ -12,6 +12,9 @@
 		<name>autoComplete</name>
 		<path>/META-INF/tags/autoComplete.tag</path>
 	</tag-file>
+	<tag-file>
+		<name>dataTable</name>
+		<path>/META-INF/tags/dataTable.tag</path>
 	</tag-file>
 	<tag-file>
 		<name>css</name>
