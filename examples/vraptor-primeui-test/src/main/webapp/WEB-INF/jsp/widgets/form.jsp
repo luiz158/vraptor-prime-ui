@@ -16,10 +16,24 @@
 <form>
 <v:fieldset id="fieldset" legend="Some form components">
 	<p>
+		<h3>inputText</h3>
 		<v:inputText name="inputText" placeholder="place the name here" />
 	</p>
 	<p>
+		<h3>textArea</h3>
 		<v:textArea name="textArea" rows="5" cols="100" autoResize="true">Some text</v:textArea>
+	</p>
+	
+	<p>
+	<h3>listBox</h3>  
+	<v:listBox name="listBox" multiple="true">  
+	    <option value="0">Select one or more</option>  
+	    <option value="1">Option 1</option>  
+	    <option value="2">Option 2</option>  
+	    <option value="3">Option 3</option>  
+	    <option value="4">Option 4</option>  
+	    <option value="5">Option 5</option>  
+	</v:listBox>
 	</p>
 	
 	<p>

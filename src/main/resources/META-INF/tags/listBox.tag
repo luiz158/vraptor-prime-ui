@@ -5,20 +5,19 @@
 
 <%@attribute name="id" %>
 <%@attribute name="name" required="true" %>
-<%@attribute name="filter" %>
+<%@attribute name="multiple" rtexprvalue="true|false" %>
 
 <u:default varName="id" defaultValue="${name}"/>
-<u:default varName="filter" defaultValue="false"/>
+<u:default varName="multiple" defaultValue="false"/>
 
-<select id="${id}" name="${name}" <c:forEach var="a" items="${attrs}">${a.key} = "${a.value}"</c:forEach>>
+<select id="${id}" name="${name}" <c:if test="${multiple}">multiple="multiple"</c:if> 
+<c:forEach var="a" items="${attrs}">${a.key} = "${a.value}"</c:forEach>>
 	<jsp:doBody/>
 </select>
 
 <u:jsStore>
 <script>
-$('#${id}').puidropdown({  
-    filter: ${filter}
-});
+$('#${id}').puilistbox();
 </script>
 </u:jsStore>
 
