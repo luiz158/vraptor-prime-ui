@@ -45,6 +45,10 @@
 		<path>/META-INF/tags/inputText.tag</path>
 	</tag-file>	
 	<tag-file>
+		<name>textArea</name>
+		<path>/META-INF/tags/textArea.tag</path>
+	</tag-file>
+	<tag-file>
 		<name>select</name>
 		<path>/META-INF/tags/select.tag</path>
 	</tag-file>

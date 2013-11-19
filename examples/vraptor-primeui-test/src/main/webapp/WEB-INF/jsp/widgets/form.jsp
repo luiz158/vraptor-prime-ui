@@ -16,8 +16,12 @@
 <form>
 <v:fieldset id="fieldset" legend="Some form components">
 	<p>
-		<v:inputText name="name" placeholder="place the name here" />
+		<v:inputText name="inputText" placeholder="place the name here" />
 	</p>
+	<p>
+		<v:textArea name="textArea" rows="5" cols="100" autoResize="true">Some text</v:textArea>
+	</p>
+	
 	<p>
 		<label for="check">Checkbox:</label>
 		<v:checkbox name="check" value="1" />
