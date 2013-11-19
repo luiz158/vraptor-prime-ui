@@ -16,7 +16,7 @@
 <form>
 <v:fieldset id="fieldset" legend="Some form components">
 	<p>
-		<input type="text" name="val">
+		<v:inputText name="name" placeholder="place the name here" />
 	</p>
 	<p>
 		<label for="check">Checkbox:</label>
@@ -35,7 +35,6 @@
 			<option value="8">Sao Paulo</option>
 		</v:select>
 	</p>
-	
 	<p>
 		<v:button id="button" label="send" />
 	</p>

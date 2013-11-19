@@ -41,6 +41,10 @@
 		<path>/META-INF/tags/fieldset.tag</path>
 	</tag-file>
 	<tag-file>
+		<name>inputText</name>
+		<path>/META-INF/tags/inputText.tag</path>
+	</tag-file>	
+	<tag-file>
 		<name>select</name>
 		<path>/META-INF/tags/select.tag</path>
 	</tag-file>
