@@ -11,6 +11,10 @@
 	<tag-file>
 		<name>accordion</name>
 		<path>/META-INF/tags/accordion.tag</path>
+	</tag-file>
+	<tag-file>
+		<name>accordionItem</name>
+		<path>/META-INF/tags/accordionItem.tag</path>
 	</tag-file>	
 	<tag-file>
 		<name>autoComplete</name>
