@@ -20,6 +20,10 @@
 		<v:inputText name="inputText" placeholder="place the name here" />
 	</p>
 	<p>
+		<h3>password</h3>
+		<v:password name="password" />
+	</p>
+	<p>
 		<h3>textArea</h3>
 		<v:textArea name="textArea" rows="5" cols="100" autoResize="true">Some text</v:textArea>
 	</p>
