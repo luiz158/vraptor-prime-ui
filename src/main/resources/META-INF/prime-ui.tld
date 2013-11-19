@@ -57,6 +57,10 @@
 		<path>/META-INF/tags/password.tag</path>
 	</tag-file>
 	<tag-file>
+		<name>radio</name>
+		<path>/META-INF/tags/radio.tag</path>
+	</tag-file>
+	<tag-file>
 		<name>select</name>
 		<path>/META-INF/tags/select.tag</path>
 	</tag-file>

@@ -41,10 +41,22 @@
 	</p>
 	
 	<p>
-		<label for="check">Checkbox:</label>
-		<v:checkbox name="check" value="1" />
+		<h3>Checkbox</h3>
+		<label for="ch1">Check 1</label>
+		<v:checkbox id="ch1" name="check" value="1" /> <br/>
+		<label for="ch2">Check 2</label>
+		<v:checkbox id="ch2" name="check" value="2" />
+	</p>
+	
+	<p>
+		<h3>Radio</h3>
+		<label for="ra1">Radio 1</label>
+		<v:radio id="ra1" name="check" value="1" />
+		<label for="ra2">Radio 2</label>
+		<v:radio id="ra2" name="check" value="2" />
 	</p>
 	<p>
+		<h3>Select</h3>
 		<v:select name="select" filter="true" >
 			<option value="0">Select a City</option>  
 			<option value="1">Barcelona</option>  
