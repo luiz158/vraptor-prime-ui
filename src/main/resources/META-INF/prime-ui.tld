@@ -37,6 +37,11 @@
 		<path>/META-INF/tags/dataTable.tag</path>
 	</tag-file>
 	<tag-file>
+		<name>select</name>
+		<path>/META-INF/tags/select.tag</path>
+	</tag-file>
+	
+	<tag-file>
 		<name>css</name>
 		<path>/META-INF/tags/css.tag</path>
 	</tag-file>
