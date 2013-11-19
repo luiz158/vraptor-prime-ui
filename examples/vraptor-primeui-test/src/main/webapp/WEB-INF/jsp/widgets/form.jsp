@@ -14,31 +14,32 @@
 <h3>Form Tags</h3>
 
 <form>
-<p>
-	<input type="text" name="val">
-</p>
-<p>
-	<label for="check">Checkbox:</label>
-	<v:checkbox name="check" value="1" />
-</p>
-<p>
-	<v:select name="select" filter="true">
-		<option value="0">Select a City</option>  
-		<option value="1">Barcelona</option>  
-		<option value="2">Berlin</option>  
-		<option value="3">Istanbul</option>  
-		<option value="4">London</option>  
-		<option value="5">New York</option>  
-		<option value="6">Paris</option>  
-		<option value="7">Rome</option>
-		<option value="8">Sao Paulo</option>
-	</v:select>
-</p>
-
-<p>
-	<v:button id="button" label="send"/>
-</p>
-
+<v:fieldset id="fieldset" legend="Some form components">
+	<p>
+		<input type="text" name="val">
+	</p>
+	<p>
+		<label for="check">Checkbox:</label>
+		<v:checkbox name="check" value="1" />
+	</p>
+	<p>
+		<v:select name="select" filter="true" >
+			<option value="0">Select a City</option>  
+			<option value="1">Barcelona</option>  
+			<option value="2">Berlin</option>  
+			<option value="3">Istanbul</option>  
+			<option value="4">London</option>  
+			<option value="5">New York</option>  
+			<option value="6">Paris</option>  
+			<option value="7">Rome</option>
+			<option value="8">Sao Paulo</option>
+		</v:select>
+	</p>
+	
+	<p>
+		<v:button id="button" label="send" />
+	</p>
+</v:fieldset>
 </form>
 <v:scripts/>
 </body>

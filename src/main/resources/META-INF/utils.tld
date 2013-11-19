@@ -30,11 +30,10 @@
     	<body-content>scriptless</body-content>
     	<tag-class>br.com.caelum.vraptor.primeui.utils.JSStoreTag</tag-class>
     </tag>
-    
 <!--     <function> -->
 <!--         <name>jsContent</name> -->
 <!-- 		<function-class>br.com.caelum.vraptor.primeui.utils.JSStoreTag</function-class> -->
 <!-- 		<function-signature>String getJavascript()</function-signature> -->
 <!-- 	</function> -->
-    
+
 </taglib>
