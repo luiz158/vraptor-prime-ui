@@ -7,7 +7,11 @@
 	<tlib-version>1.0</tlib-version>
 	<short-name>v</short-name>
 	<uri>http://vraptor.caelum.com.br/plugins/prime-ui</uri>
-	
+
+	<tag-file>
+		<name>accordion</name>
+		<path>/META-INF/tags/accordion.tag</path>
+	</tag-file>	
 	<tag-file>
 		<name>autoComplete</name>
 		<path>/META-INF/tags/autoComplete.tag</path>
