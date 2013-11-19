@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
+<%@page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="http://vraptor.caelum.com.br/plugins/prime-ui" prefix="v" %>
+<%@taglib uri="http://vraptor.caelum.com.br/plugins/prime-ui" prefix="v" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -14,8 +14,13 @@
 <h3>Form Tags</h3>
 
 <form>
-<input type="text" name="val">
-<v:button id="button" label="send"/>
+<p>
+	<input type="text" name="val">
+</p>
+<p>
+	<label for="check">Checkbox:</label>
+	<v:checkbox name="check" value="1" />
+</p>
 </form>
 <v:scripts/>
 </body>
