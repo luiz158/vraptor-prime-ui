@@ -10,8 +10,8 @@
 <%@attribute name="rows" %>
 <%@attribute name="paramName" %>
 
-<u:default defaultValue="5" varName="rows"/>
-<u:default defaultValue="request" varName="paramName"/>
+<u:default varName="rows" defaultValue="5"/>
+<u:default varName="paramName" defaultValue="request"/>
 
 <div id="${id}"
 <c:forEach var="a" items="${attrs}">${a.key} = "${a.value}"</c:forEach>
