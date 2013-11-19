@@ -8,5 +8,9 @@ public class WidgetsController {
 	
 	@Path("layout")
 	public void layout(){}
+	
+	@Path("form")
+	public void form(){}
+	
 
 }
