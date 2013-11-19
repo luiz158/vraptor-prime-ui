@@ -29,7 +29,6 @@ public class JSStoreTag  extends SimpleTagSupport{
 		StringBuilder content = getJSContent();
 		content.insert(content.length() - 3,"\n");
 		content.insert(content.length() - 3, code);
-		System.out.println(content);
 
 	}
 	
