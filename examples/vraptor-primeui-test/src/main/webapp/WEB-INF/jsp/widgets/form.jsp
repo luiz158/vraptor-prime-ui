@@ -34,9 +34,6 @@
 	    <option value="0">Select one or more</option>  
 	    <option value="1">Option 1</option>  
 	    <option value="2">Option 2</option>  
-	    <option value="3">Option 3</option>  
-	    <option value="4">Option 4</option>  
-	    <option value="5">Option 5</option>  
 	</v:listBox>
 	</p>
 	
@@ -56,17 +53,19 @@
 		<v:radio id="ra2" name="check" value="2" />
 	</p>
 	<p>
-		<h3>Select</h3>
+		<h3>Static Select</h3>
 		<v:select name="select" filter="true" >
-			<option value="0">Select a City</option>  
-			<option value="1">Barcelona</option>  
-			<option value="2">Berlin</option>  
-			<option value="3">Istanbul</option>  
-			<option value="4">London</option>  
-			<option value="5">New York</option>  
-			<option value="6">Paris</option>  
-			<option value="7">Rome</option>
-			<option value="8">Sao Paulo</option>
+	    <option value="0">Select one</option>  
+	    <option value="1">Option 1</option>  
+	    <option value="2">Option 2</option>  
+		</v:select>
+	</p>
+	
+	<p>
+		<h3>Dynamic Select</h3>
+		<v:select name="dynSelect" filter="true" selectValue="1">
+	    	<option value="-1">Select one</option>
+	    	<v:options items="${products}" var="p" itemLabel="#{p.name}" itemValue="id"/>
 		</v:select>
 	</p>
 	<p>

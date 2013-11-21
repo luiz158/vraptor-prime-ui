@@ -14,7 +14,7 @@ public class DataGenerator {
 		List<Product> products = new ArrayList<>();
 		
 		for(int i=0; i< size; i++){
-			products.add(new Product(getRandomName(), getRandomPrice(), getRandomSize()));
+			products.add(new Product(i + 1, getRandomName(), getRandomPrice(), getRandomSize()));
 		}
 		return products;
 	}

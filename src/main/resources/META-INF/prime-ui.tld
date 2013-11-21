@@ -8,6 +8,33 @@
 	<short-name>v</short-name>
 	<uri>http://vraptor.caelum.com.br/plugins/prime-ui</uri>
 
+	<tag>
+		<description>Tag for dynamic generation of options tag inside a select</description>
+		<name>options</name>
+		<body-content>empty</body-content>
+		<tag-class>br.com.caelum.vraptor.primeui.tags.OptionsTag</tag-class>
+		<attribute>
+			<name>items</name>
+			<required>true</required>
+			<type>java.lang.Iterable</type>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>var</name>
+		</attribute>
+        <attribute>
+            <name>itemLabel</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <deferred-value/>
+        </attribute>
+        <attribute>
+            <name>itemValue</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <deferred-value/>
+        </attribute>
+    </tag>
 	<tag-file>
 		<name>accordion</name>
 		<path>/META-INF/tags/accordion.tag</path>
