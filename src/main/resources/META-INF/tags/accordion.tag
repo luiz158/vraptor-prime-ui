@@ -5,6 +5,7 @@
 <%@attribute name="id" required="true"%>
 <%@attribute name="activeIndex" %>
 <%@attribute name="multiple" %>
+<%@attribute name="change" %>
 
 <u:default varName="activeIndex" defaultValue="0" />
 <u:default varName="multiple" defaultValue="false" />
@@ -18,6 +19,9 @@
 $('#${id}').puiaccordion({
 	activeIndex : ${activeIndex}, 
 	multiple : ${multiple}
+<c:if test="${not empty change}">
+	,change: ${change}
+</c:if>
 	});  
 </script>
 </u:jsStore>
