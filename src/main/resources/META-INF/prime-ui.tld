@@ -84,6 +84,10 @@
 		<path>/META-INF/tags/listBox.tag</path>
 	</tag-file>
 	<tag-file>
+		<name>panel</name>
+		<path>/META-INF/tags/panel.tag</path>
+	</tag-file>
+	<tag-file>
 		<name>password</name>
 		<path>/META-INF/tags/password.tag</path>
 	</tag-file>
