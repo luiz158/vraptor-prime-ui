@@ -13,7 +13,9 @@
 
 <h3>Form Tags</h3>
 
-<form>
+<v:growl id="errors"/>
+
+<form action ="submit">
 <v:fieldset id="fieldset" legend="Some form components">
 	<p>
 		<h3>inputText</h3>

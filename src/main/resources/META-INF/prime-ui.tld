@@ -68,6 +68,10 @@
 		<path>/META-INF/tags/fieldset.tag</path>
 	</tag-file>
 	<tag-file>
+		<name>growl</name>
+		<path>/META-INF/tags/growl.tag</path>
+	</tag-file>
+	<tag-file>
 		<name>inputText</name>
 		<path>/META-INF/tags/inputText.tag</path>
 	</tag-file>	
