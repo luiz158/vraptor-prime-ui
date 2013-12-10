@@ -1,5 +1,7 @@
 package br.com.caelum.vraptor.plugin.primeui.controller;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import br.com.caelum.vraptor.Controller;
@@ -27,7 +29,9 @@ public class WidgetsController {
 	}
 	
 	@Path("submit")
-	public void submit(String inputText, String password, String textArea){
+	public void submit(String inputText, String password, String textArea, List<String> picklist){
+		
+		System.out.println(picklist);
 		
 		if(inputText == null){
 			validator.add(createMessage("input field cannot be null"));

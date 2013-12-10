@@ -92,6 +92,18 @@
 		<path>/META-INF/tags/password.tag</path>
 	</tag-file>
 	<tag-file>
+		<name>pickList</name>
+		<path>/META-INF/tags/pickList.tag</path>
+	</tag-file>
+	<tag-file>
+		<name>pickSource</name>
+		<path>/META-INF/tags/pickSource.tag</path>
+	</tag-file>
+	<tag-file>
+		<name>pickTarget</name>
+		<path>/META-INF/tags/pickTarget.tag</path>
+	</tag-file>
+	<tag-file>
 		<name>radio</name>
 		<path>/META-INF/tags/radio.tag</path>
 	</tag-file>

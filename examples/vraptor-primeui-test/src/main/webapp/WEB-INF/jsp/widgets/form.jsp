@@ -70,6 +70,23 @@
 	    	<v:options items="${products}" var="p" itemLabel="#{p.name}" itemValue="id"/>
 		</v:select>
 	</p>
+	
+	<p>
+		<h3>Picklist</h3>
+		
+		<v:pickList id="pickList" filter="true">
+			<v:pickSource>
+		    	<option value="-1">Select one</option>
+		    	<option value="1">Select 1</option>
+		    	<option value="2">Select 2</option>
+		    	<option value="3">Select 3</option>
+		    	<option value="4">Select 4</option>
+		    	<option value="5">Select 5</option>
+		    	<option value="6">Select 6</option>
+			</v:pickSource>
+			<v:pickTarget name="picklist[]" />
+		</v:pickList>
+	</p>
 	<p>
 		<v:button id="button" label="send" />
 	</p>
