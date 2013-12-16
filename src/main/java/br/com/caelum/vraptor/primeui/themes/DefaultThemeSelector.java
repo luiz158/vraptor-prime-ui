@@ -10,18 +10,18 @@ import br.com.caelum.vraptor.environment.Environment;
 
 @Named("themeSelector")
 @ApplicationScoped
-public class DefaultThemeSelector implements ThemeSelector{
-	
+public class DefaultThemeSelector implements ThemeSelector {
+
 	@Inject
 	private ServletContext context;
-	
+
 	@Inject
 	private Environment env;
-	
+
 	private String theme;
-	
+
 	@PostConstruct
-	public void init(){
+	public void init() {
 		System.out.println("oioioi");
 		theme = env.get("primeui-theme", "aristo");
 	}
